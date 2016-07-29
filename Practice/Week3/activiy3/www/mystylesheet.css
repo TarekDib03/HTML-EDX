@@ -1,0 +1,22 @@
+body, html {
+            margin-left: 20px;
+	    background-color:lightblue;
+	    font-size: 20px;
+        }
+        
+/* rem is used so that it is relative to the root size i.e. to the body, html. */
+ol {line-height: 2.0rem;
+     font-family: cursive;  
+        
+        }
+
+li { list-style-type: decimal; }
+
+body { color: red; }
+        
+h1 {text-align: center;
+            color: darkred;
+            margin-bottom: 3.0rem;
+            font-family: fantasy;
+            font-size: 3.0rem;
+        }

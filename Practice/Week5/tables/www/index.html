@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  
+    <style>
+        table { border-collapse: collapse; width: 100%;}
+        caption {font-weight: 900;
+        color: blue;
+        margin-top: 25px;}
+        td, th {padding:10px; height:25px;}
+    
+        #table2 table, #table2 th, #table2 td {border: 3px solid black;
+        padding: 10px;
+        border-collapse: collapse} 
+        #table2 thead { background:gray;
+        text-align: center}
+        #table2 tbody { background:lightgray;
+        text-align: center}
+        
+        #table3 thead { background: #5B9BD5;
+        text-align: center;
+        font-weight: 900;}
+        #table3 tbody { background:#D2DEEF;}
+        #table3 td { 
+        padding:10px; 
+        border: 2px solid white; 
+        }
+        #table3 tr:nth-child(even) {background:#EAEFF7}
+        #table3 thead { border-bottom: 5px solid white;}
+    </style>
+</head>
+    
+<body>
+    <table id="table1" border="1">               <caption>Activities 1</caption>
+        <thead>
+            <tr>
+                <th>Attribute</th>
+                <th>Description</th>
+                <th>Usage</th>
+            </tr>
+        </thead>
+  
+    <tbody>
+        <tr>
+            <td>src</td>
+            <td>Used to specify the URL of the image</td>
+            <td>src=“images/test.png"</td>
+        </tr>
+        
+        <tr>
+            <td>alt</td>
+            <td>Used to specify replacement text for the image</td>
+            <td>alt=“Test image for HTML5 course”</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <table id="table2">
+        <caption>Activites 2</caption>
+        <thead>
+            <tr>
+                <td>X</td>
+                <td>Y</td>
+                <td>Z</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5</td>
+                <td>60</td>
+                <td rowspan=2>Sum of X and Y: 65</td>
+            </tr>
+            <tr>
+                <td colspan=2>X*Y = 300</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table id="table3">
+        <caption>Activity 3</caption>
+        <thead>
+            <tr>
+                <td>Mileage</td>
+                <td>Pace</td>
+                <td>Calories Burned</td>
+                <td>City</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan=2></td>
+                <td colspan=2></td></tr>
+        </tbody>
+    </table>
+    </body>
+</html>
